@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sunory — Support</title>
+  <link rel="alternate" hreflang="fr" href="../support.html">
+  <meta name="description" content="Support for the Sunory application.">
+  <style>
+    :root { color-scheme: dark; --bg:#101820; --surface:#1B2631; --border:rgba(245,241,232,0.16); --text:#F5F1E8; --soft:rgba(245,241,232,0.72); --gold:#E7B76B; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+    h1 { font-size: 1.6rem; line-height:1.25; margin:0 0 8px; }
+    .brand { color: var(--gold); font-weight: 600; letter-spacing:.02em; }
+    .updated { color: var(--soft); font-size: .9rem; margin-bottom: 32px; }
+    section { background: var(--surface); border:1px solid var(--border); border-radius: 16px; padding: 20px 22px; margin: 16px 0; }
+    h2 { font-size: 1.05rem; margin: 0 0 10px; }
+    p, li { color: var(--soft); }
+    strong { color: var(--text); }
+    ul { padding-left: 1.2em; margin: 0; }
+    li { margin: 6px 0; }
+    footer { color: var(--soft); font-size:.85rem; text-align:center; margin-top: 32px; }
+    a { color: var(--gold); }
+    .lang { float: right; font-weight: 500; color: var(--soft); }
+  </style>
+</head>
+<body>
+<main>
+  <p class="brand">Sunory <span class="lang"><a href="../support.html" lang="fr">FR</a> · <strong>EN</strong></span></p>
+  <h1>Support</h1>
+  <p class="updated"><a href="./">Terms of use and privacy</a></p>
+
+  <section id="contact">
+    <h2>Contact us</h2>
+    <p>A question, a bug, an idea? Write to us at <a href="mailto:appyapp.contact@gmail.com">appyapp.contact@gmail.com</a>. If you can, include your phone model and its system version.</p>
+  </section>
+
+  <section id="calculations">
+    <h2>How are sunrise, sunset and the golden hour worked out?</h2>
+    <p>With NOAA's formulas, based on Jean Meeus's astronomical algorithms, checked against NREL's reference algorithm. Sunrise and sunset are when the top of the disc touches the horizon, refraction included. The golden hour runs from +6° to −4° of sun elevation, then the blue hour down to −6°. Each calculation is explained with its sources in the app: Settings, then "Calculations and sources".</p>
+  </section>
+
+  <section id="differences">
+    <h2>Why does the time differ from another app?</h2>
+    <p>Golden hour definitions vary between sources by a degree or two. And no app sees your real horizon: a mountain, buildings or the weather can hide the sun before the calculated time.</p>
+  </section>
+
+  <section id="location">
+    <h2>Why does Sunory ask for my location?</h2>
+    <p>The sun's course depends on where you stand. An approximate location is enough: a few kilometres move the sun by hundredths of a degree. Your location is only read while you use the app, is neither stored nor sent, and access can be withdrawn in your phone's Settings.</p>
+  </section>
+
+  <section id="poles">
+    <h2>Near the poles</h2>
+    <p>During the midnight sun or the polar night there is no sunrise or sunset that day: the app says so. Beyond 72° of latitude, the calculations lose precision.</p>
+  </section>
+
+  <section id="data">
+    <h2>My data</h2>
+    <p>Everything stays on your phone: no account, no data sent. Deleting the app erases everything. See the <a href="./#privacy">privacy policy</a>.</p>
+  </section>
+
+  <footer>Never look directly at the sun.</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sunory — Assistance</title>
+  <link rel="alternate" hreflang="en" href="en/support.html">
+  <meta name="description" content="Assistance de l'application Sunory.">
+  <style>
+    :root { color-scheme: dark; --bg:#101820; --surface:#1B2631; --border:rgba(245,241,232,0.16); --text:#F5F1E8; --soft:rgba(245,241,232,0.72); --gold:#E7B76B; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+    h1 { font-size: 1.6rem; line-height:1.25; margin:0 0 8px; }
+    .brand { color: var(--gold); font-weight: 600; letter-spacing:.02em; }
+    .updated { color: var(--soft); font-size: .9rem; margin-bottom: 32px; }
+    section { background: var(--surface); border:1px solid var(--border); border-radius: 16px; padding: 20px 22px; margin: 16px 0; }
+    h2 { font-size: 1.05rem; margin: 0 0 10px; }
+    p, li { color: var(--soft); }
+    strong { color: var(--text); }
+    ul { padding-left: 1.2em; margin: 0; }
+    li { margin: 6px 0; }
+    footer { color: var(--soft); font-size:.85rem; text-align:center; margin-top: 32px; }
+    a { color: var(--gold); }
+    .lang { float: right; font-weight: 500; color: var(--soft); }
+  </style>
+</head>
+<body>
+<main>
+  <p class="brand">Sunory <span class="lang"><strong>FR</strong> · <a href="en/support.html" lang="en">EN</a></span></p>
+  <h1>Assistance</h1>
+  <p class="updated"><a href="./">Conditions d'utilisation et confidentialité</a></p>
+
+  <section id="contact">
+    <h2>Nous contacter</h2>
+    <p>Une question, un bug, une idée ? Écris-nous à <a href="mailto:appyapp.contact@gmail.com">appyapp.contact@gmail.com</a>. Précise si possible le modèle de ton téléphone et sa version de système.</p>
+  </section>
+
+  <section id="calculs">
+    <h2>Comment sont calculés le lever, le coucher et la golden hour ?</h2>
+    <p>Avec les formules de la NOAA, tirées des algorithmes astronomiques de Jean Meeus, vérifiées contre l'algorithme de référence du NREL. Le lever et le coucher correspondent au haut du disque qui touche l'horizon, réfraction comprise. La golden hour va de +6° à −4° de hauteur du soleil, puis l'heure bleue jusqu'à −6°. Chaque calcul est expliqué avec ses sources dans l'app : Réglages, puis « Calculs et sources ».</p>
+  </section>
+
+  <section id="ecarts">
+    <h2>Pourquoi l'heure diffère-t-elle d'une autre app ?</h2>
+    <p>Les définitions de la golden hour varient d'une source à l'autre, d'un ou deux degrés. Et aucune app ne voit ton horizon réel : une montagne, des immeubles ou la météo peuvent cacher le soleil avant l'heure calculée.</p>
+  </section>
+
+  <section id="localisation">
+    <h2>Pourquoi Sunory demande-t-elle ma position ?</h2>
+    <p>La course du soleil dépend de l'endroit où tu te trouves. Une position approximative suffit : quelques kilomètres déplacent le soleil de quelques centièmes de degré. La position n'est lue que pendant l'utilisation, n'est ni enregistrée ni envoyée, et l'accès se retire dans les Réglages du téléphone.</p>
+  </section>
+
+  <section id="poles">
+    <h2>Près des pôles</h2>
+    <p>Pendant le soleil de minuit ou la nuit polaire, il n'y a pas de lever ou de coucher ce jour-là : l'app l'indique. Au-delà de 72° de latitude, la précision des calculs baisse.</p>
+  </section>
+
+  <section id="donnees">
+    <h2>Mes données</h2>
+    <p>Tout reste sur ton téléphone : pas de compte, aucune donnée envoyée. Supprimer l'application efface tout. Voir la <a href="./#confidentialite">politique de confidentialité</a>.</p>
+  </section>
+
+  <footer>Ne regardez jamais le soleil directement.</footer>
+</main>
+</body>
+</html>
